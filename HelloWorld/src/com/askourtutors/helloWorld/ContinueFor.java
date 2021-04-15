@@ -1,12 +1,13 @@
 package com.askourtutors.helloWorld;
 
-//Lab8
-public class BreakFor {
+//Lab9
+public class ContinueFor {
 	public static void main(String[] args) {
 		for (int counter = 0; counter <= 20; counter++) {
-			System.out.println("Counter :" + counter);
 			if (counter == 11)
-				break;
+				System.out.println("Counter :" + counter);
+			continue;
+
 		}
 	}
 
